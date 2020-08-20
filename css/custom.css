@@ -1,0 +1,263 @@
+body {
+    background-color: rgba(244, 244, 242, 1.0);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 400 !important;
+}
+
+.grey-background {
+    background-color: rgba(244, 244, 242, 1.0);
+}
+
+h1 {
+    font-size: 4.0rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+h2 {
+    font-size: 3.6rem;
+    line-height: 1.25;
+    letter-spacing: 0;
+}
+
+h3 {
+    font-size: 3.0rem;
+    line-height: 1.3;
+    letter-spacing: 0;
+}
+
+h4 {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: 0;
+}
+
+h5 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+h6 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+
+/* blocks */
+div.header {
+    /* margin: 5rem 0 2rem !important; */
+}
+
+div.subheader {
+    margin: 1rem 0 1rem !important;
+}
+
+div.banner {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+span.header {
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 300 !important;
+}
+
+span.subheader {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300 !important;
+}
+
+div.nav {
+    width: 100%;    
+    margin: 1rem 0;
+    min-height: 2rem;
+    text-align: center;
+}
+
+div.nav-wrapper {
+    display: inline-block;
+    min-height: 2rem;
+    line-height: 2rem;
+    margin: 0 auto; 
+}
+
+span.nav {
+    display: block;
+    float: left;
+    margin: 1rem 1rem !important;
+    min-height: 2rem;
+    line-height: 2rem;
+}
+
+span.email {
+    display: block;
+    float: left;
+    min-height: 2rem;
+    line-height: 2rem;
+    /* font-family: 'Alegreya Sans SC'; */
+    margin-left: 1rem
+}
+
+.content {}
+
+.project {
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-size: 2.5rem;
+}
+
+.date {
+    font-weight: 400
+}
+
+img.nav-icon {
+    display: block;
+    float: left; 
+    height: 2rem;
+}
+
+
+/* typography */
+.bold {
+    font-weight: 700 !important;
+}
+
+
+/* colors */
+.opaque_bg {
+    background-color: rgba(250, 250, 250, 1.0);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.left_border_blue {
+    border-left: 5px rgba(0, 158, 206, 1.0);
+    padding-left: 10px;
+}
+
+.left_border_orange {
+    border-left: 5px rgba(255, 115, 0, 1.0);
+    padding-left: 10px;
+}
+
+.timeline-block {
+    margin-bottom: 1rem;
+}
+
+.timeline-icon {
+    width: 5rem;
+}
+
+.timeline-icon-container {
+    text-align: center;
+}
+
+span.topic {
+    /* color: rgba(255, 115, 0, 1.0); */
+    font-weight: 400;
+    /* font-style: italic; */
+}
+
+p.final-paragraph {
+    margin-bottom: 0;
+    margin-block-end: 0;
+}
+
+
+/* alignment */
+.text-center {
+    text-align: center;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+
+/* links */
+a {
+    color: rgba(67, 146, 241, 1.0);
+    font-weight: 400;
+    text-decoration: none
+}
+
+a:hover {
+    color: rgba(67, 146, 241, 1.0);
+    text-decoration: none
+}
+
+a:visited {
+    color: rgba(67, 146, 241, 1.0);
+    text-decoration: none
+}
+
+a.header-nav {
+    color: rgba(100, 100, 100, 1.0);
+    font-weight: 400;
+    text-decoration: none
+}
+
+a.header-nav:hover {
+    text-decoration: none
+}
+
+a.nav {
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgba(67, 146, 241, 1.0);
+    text-decoration: none;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+a.nav:hover {
+    color: rgba(67, 146, 241, 1.0);
+    text-decoration: none;
+}
+
+a.nav:visited {
+    color: rgba(67, 146, 241, 1.0);
+    text-decoration: none;
+}
+
+
+/* lists */
+ul#ai_econ_media_coverage_us {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    list-style: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+ul#ai_econ_media_coverage_international {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    list-style: none;
+    padding: 10px;
+    border-radius: 15px;
+}
