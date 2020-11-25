@@ -346,3 +346,26 @@ li.nodecoration-list {
     text-decoration: none;
     padding-left: 0;
 }
+
+span.best_paper_tag {
+    font-style: italic;
+    color: #cc3333;
+}
+
+p.accepted_paper {    
+}
+
+span.accepted_authors {
+}
+
+span.accepted_title {
+    font-weight: 900;
+}
+
+span.reviewer_name {
+    font-weight: 900;
+}
+
+span.reviewer_affiliation {
+
+}
